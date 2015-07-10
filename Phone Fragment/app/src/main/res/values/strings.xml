@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CloudMessenger</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="cmsg">New Button</string>
+    <string name="cmsg1">New Button</string>
+    <string name="cmsg2">New Button</string>
+    <string name="bt1">New Button</string>
+    <string name="bt2">New Button</string>
+    <string name="bt3">New Button</string>
+    <string name="bn">New Button</string>
+    <string name="bn1">New Button</string>
+    <string name="bn2">New Button</string>
+    <string name="bn3">New Button</string>
+    <string name="bn4">New Button</string>
+    <string name="bn5">New Button</string>
+    <string name="bn6">New Button</string>
+    <string name="bn7">New Button</string>
+    <string name="bn8">New Button</string>
+    <string name="bn9">New Button</string>
+    <string name="bnst">New Button</string>
+    <string name="bn0">New Button</string>
+    <string name="title_activity_contact">Contact</string>
+    <string name="title_activity_navigation">Hybrid</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="Messages">Messenger</string>
+    <string name="Contacts">Contact Manager</string>
+    <string name="Dialer">Dialer</string>
+    <string name="mycontact">My Contact</string>
+
+</resources>

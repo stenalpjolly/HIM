@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selector"
+                android:orientation="horizontal"
+                android:padding="5dip">
+
+    <ImageView
+        android:id="@+id/imgPhoto"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:layout_margin="5dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/person"/>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgPhoto"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:text="Name"
+        android:textColor="#ff241c08"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        android:typeface="sans"/>
+
+    <TextView
+        android:id="@+id/txtNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/txtName"
+        android:layout_below="@id/txtName"
+        android:layout_centerHorizontal="true"
+        android:text="number"
+        android:textColor="#343434"
+        android:textSize="15dip"/>
+
+    <TextView
+        android:id="@+id/txtUnreadCount"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/circle_indicator"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#fff"
+        android:textSize="9dip"/>
+
+
+</RelativeLayout>

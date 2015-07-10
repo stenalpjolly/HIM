@@ -1,0 +1,2 @@
+include ':app', ':fab_button'
+project(':fab_button').projectDir = new File('app/libraries/fab_button')
